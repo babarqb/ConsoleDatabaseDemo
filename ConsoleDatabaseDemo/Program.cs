@@ -14,7 +14,7 @@ namespace ConsoleDatabaseDemo
             {
                 foreach (var customer in ctx.Customers.ToList().FindAll(c => c.Country == "UK"))
                 {
-                    Console.WriteLine(customer.ContactName);
+                   
                 }
             }
         }
